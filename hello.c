@@ -4,13 +4,15 @@
 int main(void)
 {
     // string answer = get_string("What's your name? ");
-    int counter = 0;
-    // counter++;
-    // counter--;
+    int counter = 5;
+    counter++;
+    counter--;
     if (counter > 0) {
         printf("Positive ");     
     } else if (counter == 0) {
         printf("NULL ");     
+    } else if (counter < 0) {
+        printf("NULL2 ");     
     } else {
         printf("Negative ");
     } 

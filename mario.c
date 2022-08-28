@@ -8,13 +8,18 @@ int main(void)
     int height = get_int("Height: ");
     
     for (int i = 0; i<height; i++) {
+        if(i >= 2) {
+            break;
+        }
+
         for (int j = 0; j<width; j++) {
-            printf ("#");
-            if( j > 10) {
+            if( j >= 2) {
                 break;
             }
+            printf ("#");
         }
         printf ("\n");
+        
     }
     
     
