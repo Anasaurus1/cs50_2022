@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    string s = "HI!\0";
+    string s = "HI!";
     string m = "BYE!";
     printf("%i %i %i %i\n", s[0], s[1], s[2],s[3]);
 }
